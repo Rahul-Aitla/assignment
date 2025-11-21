@@ -1,18 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "health-desk-clinic/package.json",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "health-desk-clinic/dist"
-            }
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/health-desk-clinic/dist/$1"
-        }
-    ]
+    "buildCommand": "cd health-desk-clinic && npm install && npm run build",
+    "outputDirectory": "health-desk-clinic/dist",
+    "installCommand": "echo 'Skipping root install'",
+    "framework": null
 }

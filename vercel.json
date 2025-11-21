@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "health-desk-clinic/package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "health-desk-clinic/dist"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/health-desk-clinic/dist/$1"
+        }
+    ]
+}

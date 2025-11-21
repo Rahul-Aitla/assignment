@@ -1,6 +1,7 @@
 {
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist",
+    "buildCommand": "cd health-desk-clinic && npm install && npm run build",
+    "outputDirectory": "health-desk-clinic/dist",
+    "installCommand": "cd health-desk-clinic && npm install",
     "rewrites": [
         {
             "source": "/(.*)",

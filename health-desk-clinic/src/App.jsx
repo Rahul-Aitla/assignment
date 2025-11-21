@@ -24,27 +24,27 @@ function App() {
     {
       title: 'Weight Loss',
       description: 'Shop trusted weight loss products that help boost metabolism and support your journey to a healthier you',
-      icon: '⚖️'
+      icon: ''
     },
     {
       title: 'Nerve Pain',
       description: 'Find relief with nerve pain products formulated to soothe discomfort and support healthy nerve function',
-      icon: '⚡'
+      icon: ''
     },
     {
       title: 'Skin Care',
       description: 'Explore premium skincare products that nourish, protect, and enhance your natural glow',
-      icon: '✨'
+      icon: ''
     },
     {
       title: 'Men’s Health',
       description: 'Discover men’s health products designed to boost energy, strength, and overall well-being.',
-      icon: '💪'
+      icon: ''
     },
     {
       title: 'Women’s Health',
       description: 'Explore women’s health products to support hormonal balance and overall wellness',
-      icon: '👩'
+      icon: ''
     }
   ];
 

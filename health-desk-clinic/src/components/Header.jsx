@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logo from '../assets/images/logo.png';
 
 const Header = () => {
   return (
@@ -7,8 +8,7 @@ const Header = () => {
       <div className="container header-container">
         <div className="logo">
           <div className="logo-icon">
-            {/* Placeholder for logo icon */}
-            <span className="plus-icon">+</span>
+            <img src={logo} alt="Health Desk Clinic Logo" className="logo-image" />
           </div>
           <div className="logo-text">
             <span className="health">HEALTH DESK</span>

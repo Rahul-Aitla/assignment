@@ -1,0 +1,38 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+
+.slider-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+}
+
+.slider-item {
+    width: 250px;
+    /* Fixed width for consistent sliding */
+    flex-shrink: 0;
+    height: auto;
+    display: flex;
+    /* Ensure child takes full height */
+}
+
+/* Pause animation on hover for better UX */
+.slider-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Move half the width (since we duplicated items) */
+    }
+}

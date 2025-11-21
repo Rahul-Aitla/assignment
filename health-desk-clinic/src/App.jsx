@@ -64,8 +64,7 @@ function App() {
       <section className="section" style={{ padding: '80px 0' }}>
         <div className="container">
           <SectionHeading
-            title="Nutrition Solutions"
-            subtitle="for Your Complete Well-Being"
+            title={["Nutrition Solutions", "for Your Complete Well-Being"]}
           />
           <CategorySlider categories={categories} />
         </div>
@@ -105,8 +104,7 @@ function App() {
       <div style={{ padding: '40px 0' }}>
         <div className="container" style={{ textAlign: 'center', marginBottom: '40px' }}>
           <SectionHeading
-            title="Health Care Desk"
-            subtitle="The Future Of Smart Health"
+            title={["Health Care Desk", "The Future Of Smart Health"]}
           />
           <p style={{ maxWidth: '800px', margin: '0 auto', color: '#4b5563' }}>
             At Health Care Desk, we are committed to producing supplements that harness the power of all-natural superfoods. Our products help support the body's natural processes, improving our customers' quality of life.
